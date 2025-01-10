@@ -92,6 +92,31 @@ Phishing Detector is a web application designed to detect and analyze phishing a
 6. **Access the application**:
     Open your browser and go to `http://127.0.0.1:5000/`.
 
+## Deployment to PythonAnywhere
+
+1. **Create an account on PythonAnywhere**: Go to PythonAnywhere and create an account.
+
+2. **Upload your project**: Upload your project files to PythonAnywhere using the file upload interface or by cloning your repository.
+
+3. **Set up a virtual environment**: Create and activate a virtual environment on PythonAnywhere, then install the dependencies:
+
+```sh
+
+    mkvirtualenv --python=/usr/bin/python3.8 my-virtualenv
+    pip install -r requirements.txt
+
+```
+
+4. **Configure the web app**: Go to the "Web" tab on PythonAnywhere and configure a new web app:
+
+    - Choose "Flask" as the framework.
+    - Set the working directory to your project's directory.
+    - Set the WSGI configuration file to point to your Flask app.
+
+5. **Set environment variables**: Add your environment variables in the "Web" tab under "Environment variables".
+
+6. **Reload the web app**: Reload your web app from the "Web" tab to apply the changes.
+
 ## Usage
 
 - Navigate to the contact form and submit an email and message.
