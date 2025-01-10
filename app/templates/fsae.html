@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASE</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body>
+
+    <header class="l-header">
+
+        <nav class="nav bd-grid">
+
+            <div>
+                <a href="#" class="nav_logo">FASE Projects</a>
+            </div>
+
+            <div class="nav_menu" id="nav-menu">
+                
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="{{ url_for('main.index') }}" class="nav_link">Home</a></li>
+                </ul>
+
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+            
+        </nav>
+
+    </Header>
+
+    <!-- Project Content -->
+
+    <main class="l-main">
+
+        <section class="about section" id="about">
+
+            <div class="design_container bg-grid">
+                <div class="about_img">
+                    <img src="/assets/Lincoln/FSAELincoln.jpg" alt="">
+                    <img src="/assets/Italy/italy event.JPG" alt="">
+                </div>
+
+                <div>
+                    <h2 class="design_subtitle">Formula Society of Automotive Engineering Experience</h2>
+                    <h3>Innovative Design and Engineering</h3>
+                    <ul>
+                        <li>Led the design and optimization of a KTM 390 Engine air intake using CFD simulations, improving vehicle efficiency by 15%</li>
+                        <li>Designed FSAE chassis using Ackerman principle, performing FEA structural and crash analysis with LS-DYNA</li>
+                        <li>Implemented DOE and Red X studies to root cause design failures, reducing overall failures by 30%</li>
+                    </ul>
+
+                    <h3>Advanced Manufacturing and Materials</h3>
+                    <ul>
+                        <li>Designed and manufactured in-house carbon fiber seat, reducing weight by 40% while enhancing safety%</li>
+                        <li>Utilized Polyjet and SLS additive manufacturing techniques to create complex geometries with minimal support and efficient material use</li>
+                        <li>Applied ANSI Y14.5 Geometric Dimensioning and Tolerancing principles in component design and manufacturing</li>
+                    </ul>
+
+                    <h3>Cutting-Edge Technology Integration</h3>
+
+                    <ul>
+                        <li>Integrated Arduino-based variable runner length system for engine air flow optimization</li>
+                        <li>Developed and implemented sensor systems for pressure measurement and mass flow rate calculation</li>
+                        <li>Tuned ECU with Ricardo and Powertronic software (RACE DYNAMICS) KIT for optimal engine performance</li>
+                    </ul>
+
+                    <h3>Comprehensive Vehicle Development</h3>
+
+                    <ul>
+                        <li>Designed, analyzed, and manufactured a Formula 1 style prototype, competing in international events (Japan 2017, Italy 2018, USA 2019, and Formula Bharat 2020)</li>
+                        <li>Conducted FEA and thermal analysis for wheel assembly components, including uprights and drive shafts</li>
+                        <li>Executed a Design Verification Plan & Report (DVP&R) and Design Failure Mode & Effects Analysis (DFMEA) to identify and mitigate potential failures</li>
+                    </ul>
+
+                    <h3>Recognition and Achievements</h3>
+
+                    <ul>
+                        <li>Received recognition from Harley Davidson and Tesla design teams for innovative powertrain solutions</li>
+                        <li>Participated in rigorous static and dynamic events, showcasing engineering skills against global competition</li>
+                        <li>Demonstrated creativity and engineering prowess in design reviews judged by industry professionals</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <p class="footer_title">Aniruddha Talange</p>
+
+        <div class="footer_social">
+            <a href="#" class="footer_social-icon"><i class='bx bxl-twitter' ></i></a>
+            <a href="#" class="footer_social-icon"><i class='bx bxl-youtube' ></i></a>
+
+            <p>&#169; 2024 Copyright all right reserved</p>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!-- Main JS -->
+    <script src="./javascript/main.js"></script>
+    
+</body>
+</html>

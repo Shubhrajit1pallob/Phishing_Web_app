@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body class="gradient-background">
+
+    <!-- <div id="navbar-placeholder"></div>
+    <script src="./utilities/navbar.js"></script> -->
+
+    <!-- Header Section -->
+
+    <header class="l-header">
+
+        <nav class="nav bd-grid">
+
+            <div>
+                <a href="#" class="nav_logo">Portfolio</a>
+            </div>
+
+            <div class="nav_menu" id="nav-menu">
+                
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                    <li class="nav_item"><a href="#projects" class="nav_link">Projects</a></li>
+                    <li class="nav_item"><a href="#research" class="nav_link">Research</a></li>
+                    <li class="nav_item"><a href="#cv" class="nav_link">CV</a></li>
+                    <li class="nav_item"><a href="#publication" class="nav_link">Publications</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+                </ul>
+
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+            
+        </nav>
+
+    </Header>
+
+    <!-- Main Section -->
+    <main class="l-main">
+        <!--  Home Section -->
+
+        <section class="bd-grid home" id="home">
+            <div class="home_data">
+                <h1 class="home_title">Hi, <br>I'm <span class="home_title-color">Aniruddha Talange</span> <br class="responsive-br">Mechanical <br class="responsive-br">Engineer</span> </h1>
+                <a href="#contact" class="button">Contact</a>
+            </div>
+            <div class="home_social">
+                <a href="https://www.linkedin.com/in/aniruddha-talange-b74055132/" title="linkedin" class="home_social-icon">
+                    <i class='bx bxl-linkedin' ></i>
+                </a>
+                <!-- <a href="#" title="Email" class="home_social-icon">
+                    <i class='bx bxl-gmail' ></i>
+                </a> -->
+                <a href="#" title="Github" class="home_social-icon">
+                    <i class='bx bxl-github' ></i>
+                </a>
+                <a href="https://www.youtube.com/playlist?list=PLcHr8zStz2XduxeEYHNmmez6LE0jmAGT5" title="youtube" class="home_social-icon">
+                    <i class='bx bxl-youtube' ></i>
+                </a>
+                
+            </div>
+
+            <div class="home_img">
+                <img src="../static/assets/home images/home image.png" alt="">
+            </div>
+
+        </section>
+
+        <!-- About Section -->
+
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about_container bg-grid">
+                <div class="about_img">
+                    <img src="../static/assets/home images/Arizona State University.png" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about_subtitle">I am <span class="about_title-color">Aniruddha Talange</span></h2>
+                    <p class="about_text">I am a Mechanical Engineer with expertise in computational design, 3D printing, and advanced simulations. Passionate about bio-inspired design, I create sustainable and efficient engineering solutions. With 3+ years of experience in industries like automotive and semiconductor manufacturing, I combine innovation and technical precision to deliver impactful results.</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Skills Section -->
+
+        <section class="skills section" id="skills">
+
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills_container bd-grid">
+                <div>
+
+                    <h2 class="skills_subtitle">Professional Skills</h2>
+                    <p class="skills_text">As a versatile professional, I bring a unique blend of engineering expertise and creative skills to every project. I've honed my technical knowledge while cultivating a creative edge. My skill set includes:</p>
+                    
+                    <!-- Html -->
+                    <div class="skills_data">
+                        
+                        <div class="skills_name">
+                            <i class='bx bxl-html5 skills_icon' ></i>
+                            <span class="skills_name">Advanced CAD/CAM software</span>
+                        </div>
+                        
+                        <div>
+                            <span class="skills_percentage">95%</span>
+                        </div>
+
+                        <div class="skills_bar skills_Adv_soft"></div>
+
+                    </div>
+
+                    <!-- CSS -->
+                    <div class="skills_data">
+                        
+                        <div class="skills_name">
+                            <i class='bx bxl-css3 skills_icon' ></i>
+                            <span class="skills_name">Simulation and Analysis</span>
+                        </div>
+                        
+                        <div>
+                            <span class="skills_percentage">85%</span>
+                        </div>
+
+                        <div class="skills_bar skills_sa"></div>
+
+                    </div>
+
+                    <!-- JS -->
+                    <div class="skills_data">
+                        
+                        <div class="skills_name">
+                            <i class='bx bxl-javascript skills_icon' ></i>
+                            <span class="skills_name">Manufacturing Processes</span>
+                        </div>
+                        
+                        <div>
+                            <span class="skills_percentage">82%</span>
+                        </div>
+
+                        <div class="skills_bar skills_mp"></div>
+
+                    </div>
+                    <div class="skills_data">
+                        
+                        <div class="skills_name">
+                            <i class='bx bxl-css3 skills_icon' ></i>
+                            <span class="skills_name">Additive Manufacturing</span>
+                        </div>
+                        
+                        <div>
+                            <span class="skills_percentage">80%</span>
+                        </div>
+
+                        <div class="skills_bar skills_am"></div>
+
+                    </div>
+
+                </div>
+
+                <div>              
+                    <img src="../static/assets/home images/Competitions Industry visits Designs 3D Printed ECU Tuning.png" alt="" class="skills__img">
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Projects Section -->
+
+        <section class="project section" id="projects">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="project_container bd-grid">
+                <div class="project_img">
+                    <a href="{{ url_for('main.design') }}" title="Design Projects"><img src="../static/assets/home images/branching.png" alt=""></a>
+                </div>
+                <div class="project_img">
+                    <a href="{{ url_for('main.manufacturing') }}" title="Manufacturing Projects"><img src="../static/assets/home images/Manufacturingme.png" alt=""></a>
+                </div>
+                <div class="project_img">
+                    <a href="{{ url_for('main.fsae') }}" title="FASE Projects"><img src="../static/assets/Lincoln/FSAELincoln.jpg" alt=""></a>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <!-- Research Section -->
+
+        <section class="research section" id="research">
+            <h2 class="section-title">Research</h2>
+
+            <div class="research_container bd-grid">
+                <div class="research_img">
+                    <a href="{{ url_for('main.research1') }}"><img src="../static/assets/home images/branching3Dprinted.png" alt=""></a>
+                </div>
+                <div class="research_img">
+                    <a href="{{ url_for('main.research2') }}"><img src="../static/assets/home images/airintake research img.jpg" alt=""></a>
+                </div>
+                <!-- <div class="research_img">
+                    <img src="assets/research3.jpg" alt="">
+                </div>
+                <div class="research_img">
+                    <img src="assets/research4.jpg" alt="">
+                </div> -->
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- CV -->
+
+    <section class="cv section" id="cv">
+        <h2 class="section-title">CV</h2>
+
+        <div class="cv_container bd-grid">
+            <div class="cv_img">
+                <img src="../static/assets/home images/cvthumbnail.png" alt="">
+            </div>
+
+            <div>
+                <h2 class="cv_subtitle">Download CV</h2>
+                <a href="../static/assets/cv.txt" download="Your_CV.pdf" class="cv_button button">Download</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Publications -->
+
+    <section class="publications section" id="publication">
+        <h2 class="section-title">Publications</h2>
+
+        <div class="publications_container bd-grid">
+            <div class="publications_img">
+                <img src="../static/assets/home images/publication.jpg" alt="">
+            </div>
+
+            <div>
+                <h2 class="publications_subtitle">My Publications</h2>
+                <a href="https://drive.google.com/drive/folders/11DP2UZ_4wgiI7DX5rCYuFs9siLpXdZbQ?usp=drive_link`" rel="noopener noreferrer" target="_blank" class="cv_button button">GoTo</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact_container bd-grid">
+            <form action="/send_email" method="POST" class="contact_form" id="contact-form">
+                <input type="text" name="name" placeholder="Name" class="contact_input" required>
+                <input type="email" name="email" placeholder="Email" class="contact_input" required>
+                <textarea name="message" id="" cols="0" rows="10 " placeholder="Your message" class="contact_input" required></textarea>
+
+                <input type="submit" value="Enter" class="contact_button button">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <p class="footer_title">Aniruddha Talange</p>
+
+        <div class="footer_social">
+            <a href="#" class="footer_social-icon"><i class='bx bxl-twitter' ></i></a>
+            <a href="#" class="footer_social-icon"><i class='bx bxl-youtube' ></i></a>
+
+            <p>&#169; 2024 Copyright all right reserved</p>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!-- Main JS -->
+    <script src="/static/javascript/main.js"></script>
+
+    <!-- Bootstrap JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+
+</body>
+</html>
